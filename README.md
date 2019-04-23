@@ -1,2 +1,2 @@
-# Hospital-Study-Project
-Project about hospital (Registration, Examination).
+# bdProject
+Repository for database project written in C# with LINQ

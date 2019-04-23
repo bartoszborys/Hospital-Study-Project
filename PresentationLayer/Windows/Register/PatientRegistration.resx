@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="doctor_name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="doctor_name.HeaderText" xml:space="preserve">
+    <value>Lekarz</value>
+  </data>
+  <metadata name="patients_count.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="patients_count.HeaderText" xml:space="preserve">
+    <value>Dzisiaj pacjentów</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="doctorsGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 13</value>
+  </data>
+  <data name="doctorsGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 267</value>
+  </data>
+  <data name="doctorsGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;doctorsGridView.Name" xml:space="preserve">
+    <value>doctorsGridView</value>
+  </data>
+  <data name="&gt;&gt;doctorsGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorsGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;doctorsGridView.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="doctor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="doctor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="doctor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;doctor.Name" xml:space="preserve">
+    <value>doctor</value>
+  </data>
+  <data name="&gt;&gt;doctor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctor.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;doctor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="submit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 250</value>
+  </data>
+  <data name="submit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 30</value>
+  </data>
+  <data name="submit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="submit.Text" xml:space="preserve">
+    <value>Rejestruj</value>
+  </data>
+  <data name="&gt;&gt;submit.Name" xml:space="preserve">
+    <value>submit</value>
+  </data>
+  <data name="&gt;&gt;submit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;submit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;submit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 250</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Powrót</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="date.CustomFormat" xml:space="preserve">
+    <value>MM/dd/yyyy                                         HH:mm</value>
+  </data>
+  <data name="date.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="date.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;date.Name" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="&gt;&gt;date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;date.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;date.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pesel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="pesel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="pesel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pesel.Name" xml:space="preserve">
+    <value>pesel</value>
+  </data>
+  <data name="&gt;&gt;pesel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pesel.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;pesel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="lastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="lastName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lastName.Name" xml:space="preserve">
+    <value>lastName</value>
+  </data>
+  <data name="&gt;&gt;lastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastName.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;lastName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="name.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;name.Name" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="&gt;&gt;name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;name.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;name.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 195</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Lekarz</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 153</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 106</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>PESEL</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 59</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Nazwisko</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Imię</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="warning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="warning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="warning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 234</value>
+  </data>
+  <data name="warning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 13</value>
+  </data>
+  <data name="warning.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="warning.Text" xml:space="preserve">
+    <value>Musi zostać wybrany lekarz oraz data</value>
+  </data>
+  <data name="&gt;&gt;warning.Name" xml:space="preserve">
+    <value>warning</value>
+  </data>
+  <data name="&gt;&gt;warning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;warning.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;warning.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="warning2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="warning2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="warning2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 234</value>
+  </data>
+  <data name="warning2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 13</value>
+  </data>
+  <data name="warning2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="warning2.Text" xml:space="preserve">
+    <value>Data musi być późniejsza niż aktualna</value>
+  </data>
+  <data name="&gt;&gt;warning2.Name" xml:space="preserve">
+    <value>warning2</value>
+  </data>
+  <data name="&gt;&gt;warning2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;warning2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;warning2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>527, 285</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RejestracjaPacjenta</value>
+  </data>
+  <data name="&gt;&gt;ID.Name" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctor_name.Name" xml:space="preserve">
+    <value>doctor_name</value>
+  </data>
+  <data name="&gt;&gt;doctor_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patients_count.Name" xml:space="preserve">
+    <value>patients_count</value>
+  </data>
+  <data name="&gt;&gt;patients_count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RejestracjaPacjenta</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

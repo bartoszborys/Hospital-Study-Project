@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B85DB74-8417-46BE-8593-D5F3C8B68F68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Przychodnia</RootNamespace>
+    <AssemblyName>Przychodnia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BizzLayer">
+      <HintPath>..\BizzLayer\bin\Debug\BizzLayer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataLayer">
+      <HintPath>..\DataLayer\bin\Debug\DataLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lib\DataGridFocusedRow.cs" />
+    <Compile Include="Lib\MessageBoxDecorator.cs" />
+    <Compile Include="Lib\VisitStatuses.cs" />
+    <Compile Include="Lib\VisitStatusTranslator.cs" />
+    <Compile Include="WindowFactory\UnknowFactoryValueException.cs" />
+    <Compile Include="WindowFactory\IWindowFactory.cs" />
+    <Compile Include="Lib\PatientDataValidate.cs" />
+    <Compile Include="Windows\Administrator\CreateUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Administrator\CreateUsers.Designer.cs">
+      <DependentUpon>CreateUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Doctor\LaboratoryExList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Doctor\LaboratoryExList.Designer.cs">
+      <DependentUpon>LaboratoryExList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Doctor\OrderLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Doctor\OrderLaboratory.Designer.cs">
+      <DependentUpon>OrderLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Lab\LaboratoryExaminationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Lab\LaboratoryExaminationList.Designer.cs">
+      <DependentUpon>LaboratoryExaminationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Doctor\PhysicalExList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Doctor\PhysicalExList.Designer.cs">
+      <DependentUpon>PhysicalExList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Doctor\Visit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Doctor\Visit.Designer.cs">
+      <DependentUpon>Visit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Doctor\VisitsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Doctor\VisitsList.Designer.cs">
+      <DependentUpon>VisitsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Register\PatientManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Register\PatientManagment.Designer.cs">
+      <DependentUpon>PatientManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Register\PatientRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Register\PatientRegistration.Designer.cs">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Register\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Register\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFactory\WindowFactoryImp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\Templates\LaboratoryExaminationSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Templates\LaboratoryExaminationSummary.Designer.cs">
+      <DependentUpon>LaboratoryExaminationSummary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Windows\Administrator\CreateUsers.resx">
+      <DependentUpon>CreateUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Doctor\LaboratoryExList.resx">
+      <DependentUpon>LaboratoryExList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Doctor\OrderLaboratory.resx">
+      <DependentUpon>OrderLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Lab\LaboratoryExaminationList.resx">
+      <DependentUpon>LaboratoryExaminationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Doctor\PhysicalExList.resx">
+      <DependentUpon>PhysicalExList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Doctor\Visit.resx">
+      <DependentUpon>Visit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Doctor\VisitsList.resx">
+      <DependentUpon>VisitsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Register\PatientManagment.resx">
+      <DependentUpon>PatientManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Register\PatientRegistration.resx">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Register\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Windows\Templates\LaboratoryExaminationSummary.resx">
+      <DependentUpon>LaboratoryExaminationSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
